@@ -1,0 +1,145 @@
+@font-face {
+    font-family: logoguys;
+    src: url(/assets/CaviarDreams_Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: logoyah;
+    src: url(/assets/BrownRosemary.ttf);
+  }
+  
+  @font-face {
+    font-family: egoeuy;
+    src: url(/assets/Another\ Danger\ -\ Demo.otf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    margin: 0;
+    background: linear-gradient(to top, darkred, black);
+    color: white;
+  }
+  
+  .container {
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    max-width: 1200px;
+    width: 75%;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+.content {
+    display: flex;
+    gap: 20px; 
+    align-items: center; 
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+  }
+  
+  .photo img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white; 
+    object-fit: cover; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+  }
+
+  .description {
+    flex: 1;
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  .description p {
+    font-size: 20px;
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+  }
+
+  .back-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem; 
+    cursor: pointer;
+    text-decoration: none; 
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 300px; 
+    display: inline-block;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .back-button:hover {
+    background: white;
+    color: darkred;
+    transform: scale(1.05); 
+  }
+
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: darkred;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  margin-left: 20px;
+}
+  .social-btn:hover {
+    background-color: darkred;
+    color: white;
+    transform: scale(1.1);
+  }
+  

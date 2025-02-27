@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Website Menonton Film</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        position: relative;
+        font-family: racing sans one, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(svtlogo2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.8; /* Mengatur transparansi gambar latar belakang */
+        z-index: -1; /* Menempatkan di belakang konten */
+      }
+      header {
+        background: #dc5f00;
+        color: #000000;
+        padding: 0.5px;
+        text-align: center;
+        border-radius: 0px;
+        margin: 0px;
+      }
+      nav {
+        margin: 25px 0;
+      }
+      nav a {
+        margin: 0 15px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      .film-card {
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 15px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .film-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      .film-title {
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #dc5f00;
+        color: #fff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Website Menonton Film</h1>
+      <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Film</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film1.jpg" alt="Film 1" />
+        <h2 class="film-title">Judul Film 1</h2>
+        <p>Deskripsi singkat tentang film 1. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 1')">Tonton Sekarang</button>
+      </div>
+      <div class="film-card">
+        <img src="film2.jpg" alt="Film 2" />
+        <h2 class="film-title">Judul Film 2</h2>
+        <p>Deskripsi singkat tentang film 2. Film ini adalah tentang...</p>
+        <button onclick="alert('Menonton Film 2')">Tonton Sekarang</button>
+      </div>
+      <!-- Tambahkan lebih banyak film di sini -->
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Website Menonton Film. Semua hak dilindungi.</p>
+    </footer>
+  </body>
+</html>
